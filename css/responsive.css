@@ -1,0 +1,76 @@
+/*
+
+    RESPONSIVE STYLESHEET - responsive.css 1.0
+
+*/
+
+/* 980px - 1199px */
+@media (min-width: 980px) and (max-width: 1199px) {
+       
+}
+
+
+
+/* 768px - 979px */
+@media (min-width: 768px) and (max-width: 979px) {
+    #countdown { width: 750px; }  
+}
+
+
+/* - 767px */
+@media (max-width: 767px) {
+    
+    #countdown { width: 95%; }
+    
+    .countdown_section { font-size: 1.0em; }
+    
+    .countdown_amount { font-size: 350%; }
+    
+}
+
+
+/* - 480px */
+@media (max-width: 480px) {
+    
+    header div {
+        width: 220px;
+        height:  220px;
+        margin: 0 auto -50px auto;
+    }
+    
+    header h1 { 
+        font-size: 3.0em; 
+        margin-top: 55px;
+    }
+    header h2 { font-size: 1.5em; }
+    
+    #social { width: 70%; }
+    
+    .countdown_section {
+        border: 0;
+        font-size: 1.0em;
+    }
+    
+    .countdown_show1 .countdown_section,
+    .countdown_show2 .countdown_section,
+    .countdown_show3 .countdown_section,
+    .countdown_show4 .countdown_section,
+    .countdown_show5 .countdown_section,
+    .countdown_show6 .countdown_section,
+    .countdown_show7 .countdown_section {
+    	width: 48%;
+    }
+    
+    #social form { 
+        width: 100%; 
+        margin: 20px 0px 40px 0px;
+    }
+    
+    input, button {
+        float:none !important;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    
+}

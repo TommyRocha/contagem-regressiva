@@ -1,0 +1,13 @@
+/*
+
+    DEFAULT STYLESHEET - style.css 1.0
+    Para editar o css vá em cada arquivo css abaixo
+
+*/
+
+@import url(reset.css);
+@import url(supersized.css);
+@import url(supersized.shutter.css);
+@import url(http://fonts.googleapis.com/css?family=Muli);
+@import url(main.css);
+@import url(responsive.css);
